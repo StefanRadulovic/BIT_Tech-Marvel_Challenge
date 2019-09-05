@@ -1,0 +1,27 @@
+.header{
+    width: 90%;
+    margin: 0 auto;
+    height: 3rem;
+    background-color: red;
+    color: white;
+    padding: 0 3%;
+    font-size: 150%
+  
+}
+.logoImg{
+    height: 3rem
+
+}
+.text{
+    line-height: 3rem
+
+}
+.iconHeader{
+    float: right;
+    line-height: 3rem
+
+}
+.iconHeader:hover{
+    cursor: pointer
+    
+}

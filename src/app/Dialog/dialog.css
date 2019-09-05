@@ -1,0 +1,85 @@
+.dialog{
+    height: 12rem;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:white;
+    font-family: 'Marvel',sans-serif;
+    font-weight: 700;
+    font-size: 115%;
+    padding: 15px;
+    border-radius: 20px;  
+    left: 50%;
+    overflow: auto;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.dialog-icon{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+
+.dialog-icon:hover{
+    cursor: pointer;
+}
+
+.dialog-img{
+    display: none;
+}
+@media (min-width: 768px){
+
+    .dialog{
+        height: 30rem;
+    }
+
+    .dialog-img, .dialog-details{
+        display: inline-block
+    }
+
+    .dialog-img{
+        height: 40%;
+        width: 40%
+    }
+
+    .dialog-img img{
+        height: 80%;
+        width: 80%;
+        object-fit: fill;
+        border-radius: 20px;
+        
+    }
+
+    .hero-name{
+        text-align: center;
+        font-size: 150%
+    }
+}
+
+@media (min-width: 992px){
+
+    .dialog{
+        width: 40%
+    }
+
+    .dialog-img{
+        height: 40%;
+        width: 40%
+    }
+
+    .dialog-img img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        
+    }
+
+    .hero-name{
+        text-align: center;
+        height: 4rem;
+        font-size: 150%
+    }
+
+}

@@ -1,0 +1,26 @@
+.search-bar{
+    width: 80%;
+    margin: 25px auto;
+    height: 30px
+    
+}
+input{
+    
+    height: 30px;
+    padding: 20px 35px;
+    width:100%;
+    border:none;
+    background-image: url('../shared/search.png');
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    border-bottom: 1px solid black;
+    border-radius: 20px
+    
+}
+
+@media (min-width: 992px){
+    .search-bar{
+        width:70%
+        
+    }
+}

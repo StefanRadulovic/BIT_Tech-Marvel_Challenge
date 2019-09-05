@@ -1,0 +1,13 @@
+.footer{
+    width: 90%;
+    height: 3rem;
+    background-color: red;
+    color: white;
+    padding: 0 3%;
+    margin: 0 auto
+
+}
+.textFooter{
+    line-height: 3rem;
+    text-align: center
+}
